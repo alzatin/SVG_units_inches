@@ -31,13 +31,13 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.7495755517826824,
-            "y": 0.6565349544072948,
+            "x": 0.8039049235993209,
+            "y": 0.6778115501519757,
             "uniqueID": 1722013775414,
             "ioValues": [
                 {
                     "name": "geometry",
-                    "ioValue": 1722013849092
+                    "ioValue": 1722018216437
                 }
             ]
         },
@@ -57,6 +57,66 @@
                     "ioValue": 10
                 }
             ]
+        },
+        {
+            "atomType": "Move",
+            "name": "Move",
+            "x": 0.45331069609507646,
+            "y": 0.3252279635258359,
+            "uniqueID": 1722018200342,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722013764125
+                },
+                {
+                    "name": "xDist",
+                    "ioValue": 12
+                },
+                {
+                    "name": "yDist",
+                    "ioValue": 0
+                },
+                {
+                    "name": "zDist",
+                    "ioValue": 0
+                }
+            ]
+        },
+        {
+            "atomType": "Join",
+            "name": "Assembly",
+            "x": 0.6884550084889643,
+            "y": 0.364741641337386,
+            "uniqueID": 1722018216437,
+            "ioValues": [
+                {
+                    "name": "3D shape 2",
+                    "ioValue": 1722013849092
+                },
+                {
+                    "name": "3D shape 3",
+                    "ioValue": 1722018230358
+                }
+            ],
+            "unionType": "Assembly"
+        },
+        {
+            "atomType": "Extrude",
+            "name": "Extrude",
+            "x": 0.5059422750424448,
+            "y": 0.48024316109422494,
+            "uniqueID": 1722018230358,
+            "ioValues": [
+                {
+                    "name": "geometry",
+                    "ioValue": 1722018200342
+                },
+                {
+                    "name": "height",
+                    "ioValue": 10
+                }
+            ]
         }
     ],
     "allConnectors": [
@@ -70,9 +130,37 @@
         {
             "ap1Name": "geometry",
             "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1722013764125,
+            "ap2ID": 1722018200342
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 2",
             "ap2Primary": false,
             "ap1ID": 1722013849092,
+            "ap2ID": 1722018216437
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": true,
+            "ap1ID": 1722018200342,
+            "ap2ID": 1722018230358
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "geometry",
+            "ap2Primary": false,
+            "ap1ID": 1722018216437,
             "ap2ID": 1722013775414
+        },
+        {
+            "ap1Name": "geometry",
+            "ap2Name": "3D shape 3",
+            "ap2Primary": false,
+            "ap1ID": 1722018230358,
+            "ap2ID": 1722018216437
         }
     ],
     "unitsKey": "Inches",
