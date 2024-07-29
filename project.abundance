@@ -31,15 +31,18 @@
         {
             "atomType": "Export",
             "name": "Export",
-            "x": 0.8047538200339558,
-            "y": 0.6838905775075987,
+            "x": 0.8056027164685908,
+            "y": 0.6930091185410334,
             "uniqueID": 1722013775414,
             "ioValues": [
                 {
                     "name": "geometry",
                     "ioValue": 1722018216437
                 }
-            ]
+            ],
+            "type": "SVG",
+            "resolution": 72,
+            "importIndex": 1
         },
         {
             "atomType": "Extrude",
