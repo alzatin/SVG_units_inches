@@ -42,7 +42,8 @@
             ],
             "type": "SVG",
             "resolution": 72,
-            "importIndex": 1
+            "importIndex": 0,
+            "fileName": null
         },
         {
             "atomType": "Extrude",
@@ -107,8 +108,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5059422750424448,
-            "y": 0.48024316109422494,
+            "x": 0.5060577819198508,
+            "y": 0.4954407294832827,
             "uniqueID": 1722018230358,
             "ioValues": [
                 {
