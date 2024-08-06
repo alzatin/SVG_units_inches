@@ -38,6 +38,18 @@
                 {
                     "name": "geometry",
                     "ioValue": 1722018216437
+                },
+                {
+                    "name": "Resolution (dpi)",
+                    "ioValue": 72
+                },
+                {
+                    "name": "Part Name",
+                    "ioValue": "Part Name"
+                },
+                {
+                    "name": "File Type",
+                    "ioValue": "SVG"
                 }
             ],
             "type": "SVG",
@@ -48,8 +60,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5466893039049235,
-            "y": 0.6808510638297872,
+            "x": 0.5318138651471985,
+            "y": 0.6778115501519757,
             "uniqueID": 1722013849092,
             "ioValues": [
                 {
@@ -90,8 +102,8 @@
         {
             "atomType": "Join",
             "name": "Assembly",
-            "x": 0.6825127334465195,
-            "y": 0.36778115501519754,
+            "x": 0.6799620132953467,
+            "y": 0.3465045592705167,
             "uniqueID": 1722018216437,
             "ioValues": [
                 {
@@ -108,8 +120,8 @@
         {
             "atomType": "Extrude",
             "name": "Extrude",
-            "x": 0.5060577819198508,
-            "y": 0.4954407294832827,
+            "x": 0.5004748338081672,
+            "y": 0.4650455927051672,
             "uniqueID": 1722018230358,
             "ioValues": [
                 {
