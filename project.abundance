@@ -43,24 +43,11 @@
                 {
                     "name": "geometry",
                     "ioValue": 1722018216437
-                },
-                {
-                    "name": "Resolution (dpi)",
-                    "ioValue": 72
-                },
-                {
-                    "name": "Part Name",
-                    "ioValue": "Part Name"
-                },
-                {
-                    "name": "File Type",
-                    "ioValue": "SVG"
                 }
             ],
             "type": "SVG",
             "resolution": 72,
-            "importIndex": 0,
-            "fileName": null
+            "importIndex": 0
         },
         {
             "atomType": "Extrude",
